@@ -104,8 +104,9 @@ const TransactionDetail: React.FC = () => {
         <strong>Amount:</strong> {amount} KAIA
       </p>
       <p>
-        <strong>Gas Used:</strong> {transaction.gasUsed}
+        <strong>Gas Used:</strong> {transaction.gasUsed.toString()}
       </p>
+
       <p>
         <strong>Gas Price: </strong>
         {gasPrice} KAIA
